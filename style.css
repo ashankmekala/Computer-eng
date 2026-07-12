@@ -1,0 +1,128 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+header{
+background:#002147;
+color:white;
+padding:15px;
+position:sticky;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:80vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://images.unsplash.com/photo-1523050854058-8df90110c9f1");
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.hero p{
+font-size:22px;
+margin-top:20px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#ff9800;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.container{
+width:90%;
+margin:auto;
+padding:40px 0;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,.2);
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+table th{
+background:#002147;
+color:white;
+padding:12px;
+}
+
+table td{
+padding:12px;
+border:1px solid #ddd;
+text-align:center;
+}
+
+footer{
+background:#002147;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
